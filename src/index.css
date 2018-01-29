@@ -1,0 +1,54 @@
+div {
+    text-align: center;
+},
+#root{
+
+    text-align: center;
+    margin-left: 35%;
+    width: 300px;
+}
+h1{
+    font-family: "Century Gothic";
+    color: #de5050;
+}
+
+button{
+    background-color: white;
+    box-shadow: none;
+    border: 2px solid salmon;
+    margin-left: 10pt;
+}
+button:hover{
+    background-color: salmon;
+    color: white;
+
+}
+.task{
+  margin-top: 5px;
+  text-align: center;
+  width: 300px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+* {
+    font-family: "Century Gothic";
+}
+input {
+    border: 2px solid salmon;
+}
+.task>button{
+    margin-left:2px;
+}
+.main{
+    margin-top: 10px;
+}
+#mainInside{
+    width: 300px;
+    margin: 0px;
+}
+.list{
+    text-align: center;
+}
