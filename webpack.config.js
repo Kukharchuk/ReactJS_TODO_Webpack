@@ -22,10 +22,10 @@ module.exports = {
       },
     output: {
       path: path.resolve(__dirname, 'public'),
-  //    publicPath: '/',
+      publicPath: '/',
       filename: 'bundle.js'
     },
     devServer: {
-      contentBase: './dist'
+      contentBase: './src'
     }
   };
