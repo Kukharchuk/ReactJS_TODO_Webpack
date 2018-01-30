@@ -1,4 +1,4 @@
-
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 const path = require('path');
 module.exports = {
     entry: [
@@ -27,5 +27,8 @@ module.exports = {
     },
     devServer: {
       contentBase: './src'
-    }
+    },
+    plugins: [
+      new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+    ]
   };
